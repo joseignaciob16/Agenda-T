@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.nav-link {
+    color: #333;
+}
+.nav-link:hover {
+    color: #007bff;
+}
+
+.hero-section {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background: #007bff;
+    padding: 50px 0;
+}
+
+.hero-description {
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    max-width: 600px; /* O el ancho máximo que prefieras */
+    text-align: center; /* Alinea el texto al centro */
+  }
+  
+
+
+.hero-section .btn {
+    background: #ff4081;
+    border: none;
+}
+.feature-section {
+    padding: 30px 0;
+}
+.feature-item {
+    text-align: center;
+    padding: 20px;
+}
+.feature-icon {
+    font-size: 48px;
+    color: #007bff;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    box-shadow: 2px 2px 3px #999;
+    line-height: 60px; /* Centra el ícono verticalmente */
+  }
+  
+  .fab {
+    margin-top: 16px; /* Ajusta este valor si es necesario para centrar el ícono */
+  }
+  
+  /* Asegúrate de incluir Font Awesome para que el ícono de WhatsApp funcione */
+  
+
+.feature-item {
+    text-align: center; /* Asegura que todo esté centrado */
+    margin-bottom: 20px; /* Agrega espacio debajo del componente */
+  }
+  
+  .feature-link {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    display: block; /* Hace que el enlace ocupe el bloque completo */
+    transition: transform 0.3s ease; /* Suaviza la transición del efecto hover */
+  }
+  
+  .feature-icon {
+    width: 100%; /* Hace que la imagen sea responsive y ocupe el 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Redondea las esquinas de la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+    margin-bottom: 10px; /* Agrega espacio debajo de la imagen */
+  }
+  
+  .feature-item h3 {
+    margin-top: 15px; /* Añade espacio encima del título */
+    font-size: 1.5em; /* Aumenta el tamaño del título */
+  }
+  
+  .feature-item p {
+    color: #a94b4b; /* Cambia el color del texto para mayor legibilidad */
+  }
+  
+  .feature-item:hover .feature-link {
+    transform: translateY(-5px); /* Mueve ligeramente el componente hacia arriba cuando se hace hover */
+  }
+  

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="Styles/hoteles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>AGENDA T</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">
+            <img src="Imagenes/logo.png" alt="AGENDA T Logo" style="height: 50px;">
+            <span>AGENDA T</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reservar.html">RESERVAS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Hoteles Recomendados</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="Imagenes/ghl-hotel-monteria.jpg" class="card-img-top" alt="Hotel">
+                    <div class="card-body">
+                        <h5 class="card-title">GHL Hotel Montería</h5>
+                        <p class="card-text">Calle 44 8 43, Monteria 230009 Colombia</p>
+                        <p class="card-text">GHL Hotel Montería,un Hotel pensado en el ejecutivo de hoy y para familias
+                            que buscan disfrutar de sus instalacioneslas cuales se resalta las costumbres, tradiciones,
+                            riquezas, folclor y diferentes matices de Córdoba. </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                    data-target="#modalInfoGHL">Ver Más</button>
+                                <a href="reservar.html" style="text-decoration: none;">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Reservar</button>
+                                </a>
+                            </div>
+                            <small class="text-muted">5.0</small>
+                        </div>
+                        <div class="mt-3">
+                            <span class="badge badge-success">★★★★★</span>
+                            <span class="badge badge-secondary">10 reseñas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalInfoGHL" tabindex="-1" role="dialog" aria-labelledby="modalInfoTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalInfoTitle">Calificaciones</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="review">
+                                <div class="review-header">
+                                    <img src="Imagenes/perfil.jpeg" alt="Perfil" class="review-avatar">
+                                    <div class="reviewer-info">
+                                        <strong>Jose Ignacio Berastegui</strong>
+                                        <div class="reviewer-details">
+                                            <span class="review-stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="review-date">Hace 3 dias</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-body">
+                                    <p>Bien!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="Imagenes/sextaavenida.jpg" class="card-img-top" alt="Hotel">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Sexta Avenida Inn</h5>
+                        <p class="card-text">Carrera 6 # 62B-32, Monteria 230002</p>
+                        <p class="card-text">Este hotel dispone de centro de fitness, salón de uso común, restaurante y
+                            bar en
+                            Montería. Este hotel de 4 estrellas tiene wifi gratis, servicio de habitaciones y recepción
+                            24 horas. El hotel tiene habitaciones familiares.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                    data-target="#modalInfoGHL">Ver Más</button>
+                                <a href="reservar.html" style="text-decoration: none;">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Reservar</button>
+                                </a>
+                            </div>
+                            <small class="text-muted">5.0</small>
+                        </div>
+                        <div class="mt-3">
+                            <span class="badge badge-success">★★★★★</span>
+                            <span class="badge badge-secondary">4 reseñas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="Imagenes/unionplaza.jpg" class="card-img-top" alt="Hotel">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Union Plaza</h5>
+                        <p class="card-text">Carrera 5A No. 63 – 33 Monteria 110221</p>
+                        <p class="card-text">El Hotel Union Plaza se encuentra ubicado en el exclusivo y agradable
+                            sector del Barrio el Recreo, a 10 minutos del Aeropuerto los Garzones , disfrute a 500 mts
+                            de la ronda del Sinu Norte parque lineal en la ribera del rio Sinu. </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                    data-target="#modalInfoGHL">Ver Más</button>
+                                <a href="reservar.html" style="text-decoration: none;">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Reservar</button>
+                                </a>
+                            </div>
+                            <small class="text-muted">4.0</small>
+                        </div>
+                        <div class="mt-3">
+                            <span class="badge badge-success">★★★★</span>
+                            <span class="badge badge-secondary">7 reseñas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

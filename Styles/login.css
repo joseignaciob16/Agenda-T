@@ -1,0 +1,58 @@
+body, html {
+    height: 100%; /* Asegurarse de que el elemento body ocupa toda la altura */
+    margin: 0; /* Resetear márgenes por defecto */
+    background: url('../Imagenes/back.jpg') no-repeat center center fixed; 
+    /* Ajusta la ruta de la imagen según tu estructura de archivos */
+    background-size: cover; /* Cubre todo el espacio disponible sin perder proporciones */
+  }
+  
+  .login-container {
+    max-width: 400px;
+    padding: 40px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Resto de tu CSS */
+  
+  
+  .login-container {
+    max-width: 400px;
+    padding: 40px;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .login-title {
+    color: #D858FA; /* Un color de título que combine con el azul de tu barra de navegación */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .login-subtitle {
+    color: #0056b3; /* Un color de título que combine con el azul de tu barra de navegación */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    color: #333; /* Un color oscuro para el texto que asegura legibilidad */
+  }
+  
+  .btn-login {
+    background-color: #0056b3; /* Utiliza el azul de tu paleta de colores */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    width: 100%;
+  }
+  
+  .btn-login:hover {
+    background-color: #004494; /* Un tono ligeramente más oscuro para el efecto hover */
+  }
+  

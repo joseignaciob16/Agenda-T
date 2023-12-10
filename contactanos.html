@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGENDA T</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Styles/contactanos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">
+      <img src="Imagenes/logo.png" alt="AGENDA T Logo" style="height: 50px;">
+      <span>AGENDA T</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reservar.html">RESERVAS</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section style="height: 600px;">
+    <div class="container mt-5">
+      <h2>Formulario de Contacto</h2>
+      <form action="/ruta_para_procesar_formulario" method="post">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" class="form-control" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+          <label for="nombreNegocio">Nombre del Negocio:</label>
+          <input type="text" class="form-control" id="nombreNegocio" name="nombreNegocio" required>
+        </div>
+        <div class="form-group">
+          <label for="categoria">Categoría:</label>
+          <select class="form-control" id="categoria" name="categoria">
+            <option value="none">Seleccione una categoria</option>
+            <option value="restaurante">Restaurante</option>
+            <option value="hotel">Hotel</option>
+            <option value="salon_belleza">Salón de Belleza</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comentarios">Comentarios:</label>
+          <textarea class="form-control" id="comentarios" name="comentarios" rows="2"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Agenda T. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://api.whatsapp.com/send?phone=&text=Hola%20AgendaT%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n."
+    class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp whatsapp-icon"></i>
+  </a>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.8.11/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
